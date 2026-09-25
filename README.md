@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here is a guideline to help you get started to write Java code.
 
 ## Folder Structure
 
@@ -9,22 +9,13 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-
 # java-exercises
 Solving a list of different Java exercises.
 
 # CLASSIFICATION
-Let us clasify some exercises in different levels such as:
+Let us classify some exercises in different levels such as:
 - easy
-- intermediate
+- medium
 - difficult
 Each type will be included in different packages.
 
@@ -41,4 +32,7 @@ added with the name:
 <original-class-name>_sn.java
 
 with n > 0.
+
 The solution must not be added in the <original-class-name>.java
+(main class) and the subclasses must extend from the main class and
+override the solution method.
