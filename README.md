@@ -4,12 +4,11 @@ Here is a guideline to help you get started to write Java code.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace contains one default folder:
 
 - `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-# java-exercises
+# Java - Exercises
 Solving a list of different Java exercises.
 
 # CLASSIFICATION
@@ -17,6 +16,7 @@ Let us classify some exercises in different levels such as:
 - easy
 - medium
 - difficult
+
 Each type will be included in different packages.
 
 # SOLUTION
@@ -26,13 +26,16 @@ If one or more solutions are available, a subpackage is added with the
 name 'solutions' and, for each found solution, a new class will be
 added with the name:
 
-<original-class-name>_s1.java,
-<original-class-name>_s2.java,
+(original-class-name)_s1.java,
+
+(original-class-name)_s2.java,
+
 ...
-<original-class-name>_sn.java
+
+(original-class-name)_sn.java
 
 with n > 0.
 
-The solution must not be added in the <original-class-name>.java
-(main class) and the subclasses must extend from the main class and
+The solution MUST NOT be added in the (original-class-name).java
+(main class) and the subclasses MUST extend from the main class and
 override the solution method.
