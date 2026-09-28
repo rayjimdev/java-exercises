@@ -1,6 +1,6 @@
 ## Getting Started
 
-Here is a guideline to help you get started to write Java code.
+Here is a guideline to help you get started to solve Java exercises.
 
 ## Folder Structure
 
@@ -9,9 +9,11 @@ The workspace contains one default folder:
 - `src`: the folder to maintain sources
 
 # Java - Exercises
+
 Solving a list of different Java exercises.
 
 # CLASSIFICATION
+
 Let us classify some exercises in different levels such as:
 - easy
 - medium
@@ -20,6 +22,7 @@ Let us classify some exercises in different levels such as:
 Each type will be included in different packages.
 
 # SOLUTION
+
 If the exercise has not a solution, a comment will be included as
 NOT SOLVED.
 If one or more solutions are available, a subpackage is added with the
@@ -39,3 +42,10 @@ with n > 0.
 The solution MUST NOT be added in the (original-class-name).java
 (main class) and the subclasses MUST extend from the main class and
 override the solution method.
+
+## IMPORTANT NOTE:
+
+Before adding a new solution, please, review existing solutions. Maybe,
+someone has already added a solution with the same thinking than you.
+
+HAPPY CODING!!!
