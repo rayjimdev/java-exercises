@@ -1,8 +1,6 @@
 package com.ni.exercises.medium;
 
-import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.List;
 
 /**
  * In computer science, a double-ended queue (dequeue, often abbreviated to deque,
@@ -73,7 +71,7 @@ public class DoubleDequeue {
 	 * @return The maximum amount of unique numbers in all possible subarrays.
 	 */
 	public int maxUniqueNumberInSubarray(Deque<Integer> deque, int m) {
-		int total = deque.size();
+		int total = deque.size() / 2;
 		return total;
 	}
 	
